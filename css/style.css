@@ -1,0 +1,142 @@
+
+ 
+
+
+ 
+
+/* navbar */
+.navbar{
+    background-color: rgb(243, 28, 28);
+    
+}
+.navbar-brand{
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 1rem;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+ 
+
+
+.nav-link:hover{
+    color: rgb(162, 7, 7);
+}
+
+
+/* title_img */
+
+.red-cam{
+    width: 20%; 
+    padding-bottom: 0rem;
+    color: rgb(231, 6, 6);
+}
+h4{
+    font-family: sans-serif;
+    font-weight: bold;
+     color: rgb(153, 152, 152);
+}
+
+h6{
+    font-family: sans-serif;
+    font-weight: bold;
+     color: rgb(153, 152, 152);
+      padding-bottom: 2rem;
+}
+
+
+/* second-navbar */
+
+.second-navbar{
+    background-color: rgb(251, 10, 10);  
+  
+ 
+}
+
+h5{
+    font-family: sans-serif;
+    font-weight: bold; 
+    width: 160px;
+    margin-top: 22px;
+
+    /* padding: 27px 1193px 0% 0%; */
+}
+
+
+.news{
+    background-color: rgb(245, 53, 53);
+    color: #fff;
+    /* padding-top: 2rem; */
+    padding: 0 0 2% 2%;
+}
+
+/* slide_section */
+
+#slide-section{
+    background-color: red;
+
+}
+.carousel-item{
+    width: 100%;
+   text-align: center;
+   
+}
+
+/* featurs */
+#features {
+    padding: 7% 15%;
+    background-color: grey;
+    position: relative;
+ }
+ .feature-box{ 
+    text-align: center;
+    padding: 5%;
+ }
+
+h3{
+    color: #fff;
+}
+
+p:hover{
+color: #fff;
+}
+
+/* footer-section */
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: grey;
+ }
+ 
+ .social_icon{
+    margin: 20px 10px;
+    
+ }
+ 
+  .last_P:hover{
+color: #fff;
+  }   
+
+
+
+/* img and text midle */
+
+@media (max-width: 1028px) {
+
+    #title{
+       text-align: center;
+    }
+    
+    .title-image{
+       position: static;
+       transform: rotate(0);
+    }
+    
+    }
+
